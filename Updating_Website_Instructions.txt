@@ -1,0 +1,19 @@
+How to recompile the notebook as an html for the website
+
+RECOMPILING THE NOTEBOOK
+- Open terminal in VSCode
+- Make sure you're in same directory as code
+- Execute the following syntax
+jupyter nbconvert --to html "[FILENAME].ipynb"
+
+CONFIGURING THE FILE
+- There is now an html file in the same directory
+- RENAME it to "index.html"
+- MOVE it to the base directory (CMSC320-FinalProject-Birds // NOT SUBFOLDERS)
+- Push changes to GitHub
+
+Once changes are pushed, then the webpage updates automatically
+
+***************************************************************
+URL: https://calvin-davis.github.io/CMSC320-FinalProject-Birds/
+***************************************************************
